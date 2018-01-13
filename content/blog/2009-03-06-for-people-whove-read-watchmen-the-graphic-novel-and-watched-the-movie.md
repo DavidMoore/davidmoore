@@ -11,7 +11,6 @@ guid: http://www.davidmoore.info/?p=121
 id: 1441
 tags:
 - downfall
-- hitler
 - spoilers
 - squid
 - watchmen
