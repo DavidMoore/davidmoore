@@ -1,4 +1,4 @@
-baseURL = "http://www.davidmoore.info/"
+baseURL = "http://www.sadrobot.co.nz/"
 paginate =  30
 defaultContentLanguage = "en"
 enableEmoji = true
@@ -6,7 +6,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "↩"
 languageCode = "en-us"
 metaDataFormat = "yaml"
-title = "David Moore"
+title = "Sad Robot"
 theme = "davidmoore"
 
 disqusShortname = "sadrobot"
@@ -32,29 +32,11 @@ pygmentsUseClassic = false
 pygmentsStyle = "friendly"
 
 [outputs]
-home = [ "HTML", "RSS", "REDIR", "HEADERS", "JSON" ]
+home = [ "HTML", "RSS", "JSON" ]
 section = [ "HTML", "RSS", "JSON"]
 page = ["HTML", "JSON"]
 
-[mediaTypes]
-[mediaTypes."text/netlify"]
-suffix = ""
-delimiter = ""
-
-[outputFormats]
-[outputFormats.REDIR]
-mediatype = "text/netlify"
-baseName = "_redirects"
-isPlainText = true
-notAlternative = true
-[outputFormats.HEADERS]
-mediatype = "text/netlify"
-baseName = "_headers"
-isPlainText = true
-notAlternative = true
-
 [related]
-
 threshold = 80
 includeNewer = true
 toLower = false
@@ -72,7 +54,7 @@ twitter = "whup"
 
 #CUSTOM PARAMS
 [params]
-  description = "Senior full stack developer and technology evangelist"
+  description = "We make software"
   ## Used for views in rendered HTML (i.e., rather than using the .Hugo variable)
   release = "0.33-DEV"
   ## Setting this to true will add a "noindex" to *EVERY* page on the site
@@ -80,13 +62,11 @@ twitter = "whup"
   ## Gh repo for site footer (include trailing slash)
   ghrepo = "https://github.com/DavidMoore/davidmoore/"
   ## GH Repo for filing a new issue
-  github_repo = "https://github.com/gohugoio/hugo/issues/new"
+  github_repo = "https://github.com/DavidMoore/davidmoore/issues/new"
   ### Edit content repo (set to automatically enter "edit" mode; this is good for "improve this page" links)
   ghdocsrepo = "https://github.com/DavidMoore/davidmoore/tree/master/docs"
   ## Gitter URL
   gitter = "https://gitter.im/spf13/hugo"
-  ## Discuss Forum URL
-  forum = "https://discourse.gohugo.io/"
   ## Google Tag Manager
   gtmid = ""
 
@@ -280,12 +260,6 @@ twitter = "whup"
     weight = 5
     identifier = "wiki"
     url = "/wiki/"
-
-  [[menu.global]]
-    name = "Projects"
-    weight = 10
-    identifier = "projects"
-    url = "/projects/"
 
   [[menu.global]]
     name = "Gaming"
